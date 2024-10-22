@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: inherit;
+}
+body {
+    color: white;
+    font: 16px / 1.7 Open Sans, arial, Helvetica Neue, Helvetica;
+}
+.box { 
+    width: 300px;
+    height: 250px;
+    background-color: black;
+    text-align: center;
+    position: relative;
+    margin-top: 250px;
+    margin-left: 600px;
+    border-radius: 25px;
+}
+.img {
+    border: 2px red solid;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-left: 125px;
+    border-radius: 50px;
+    position: absolute;
+    top: 25px;
+}
+.img img {
+    margin-top: 7px;
+}
+.para {
+    position: absolute;
+    top: 100px;
+    width: 150px;
+    left: 80px;
+}
+.para-DA {
+    font-size: 20px;
+}
+.para-AYS {
+    font-size: 12px;
+    color: rgb(187, 187, 187);
+}
+.btnCancel {
+    position: absolute;
+    display: flex;
+    top: 190px;
+    left: 45px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+.btnCancel:hover {
+    box-shadow: 1px 1px 15px 1px rgb(255, 255, 255);
+}
+.btnCancel button {
+    background-color: transparent;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+}
+.btnDelete {
+    position: absolute;
+    display: flex;
+    top: 190px;
+    left: 165px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+.btnDelete:hover {
+    box-shadow: 1px 1px 15px 1px red;
+}
+.btnDelete button {
+    background-color: transparent;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
